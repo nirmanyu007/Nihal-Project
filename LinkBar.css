@@ -1,0 +1,33 @@
+.color{
+    margin-top: 23px;
+    margin-bottom: 0px;
+}
+ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+li {
+    float: left;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:active {
+    background-color: #FF5A59;
+    border: 1px solid;
+    border-radius: 7px;
+    /* margin-top: 15px; */
+}
